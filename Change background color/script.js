@@ -10,10 +10,8 @@ function randomNumber() {
 }
 
 btn.addEventListener("click", () => {
-  let color1 = randomNumber();
-  let color2 = randomNumber();
-  let color3 = randomNumber();
-  body.style.backgroundColor = `rgb(${color1},${color2}, ${color3})`;
+  const col = [randomNumber(), randomNumber(), randomNumber()];
+  body.style.backgroundColor = `rgb(${col[0]},${col[1]}, ${col[2]})`;
   text.classList.remove("hidden");
-  text.textContent = `RGB Color: ${color1},${color2},${color3}`;
+  text.textContent = `RGB Color: ${col[0]},${col[1]}, ${col[2]}`;
 });
