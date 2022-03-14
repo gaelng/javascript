@@ -1,0 +1,210 @@
+/*****************************************/
+/************Small PC 1400px**************/
+/*****************************************/
+
+@media (max-width: 87em) {
+  .hero-title {
+    font-size: 5.2rem;
+  }
+  .hero-text,
+  .about-me-text,
+  .breed-text,
+  .contact-us-text,
+  .footer-text {
+    font-size: 2rem;
+  }
+  .hero-img {
+    max-width: 70rem;
+    height: 60rem;
+  }
+  .breed-img {
+    width: 90%;
+  }
+}
+
+/*****************************************/
+/************TABLET 1200px****************/
+/*****************************************/
+
+@media (max-width: 75em) {
+  .grid-breed {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 3rem;
+  }
+  .breed-img {
+    width: 80%;
+  }
+  .breed-img:nth-of-type(3) {
+    grid-row: 5;
+  }
+  .hero-img {
+    max-width: 60rem;
+    height: 50rem;
+  }
+  .hero-text,
+  .about-me-text,
+  .breed-text,
+  .contact-us-text,
+  .footer-text {
+    font-size: 1.6rem;
+  }
+}
+
+/*****************************************/
+/************1000px****************/
+/*****************************************/
+
+@media (max-width: 63em) {
+  .navbar {
+    justify-content: center;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap: 4.8rem;
+  }
+  .hero-img {
+    grid-row: 1;
+  }
+  .hero-title {
+    text-align: center;
+  }
+  .contact-us-text {
+    text-align: center;
+  }
+  .contact-form-grid {
+    grid-template-columns: 1fr;
+  }
+  .form-btn {
+    grid-column: -3/-1;
+    justify-self: center;
+  }
+  .form {
+    border-bottom: 1px solid #ccc;
+  }
+}
+
+/*****************************************/
+/*****************800px*******************/
+/*****************************************/
+
+@media (max-width: 50em) {
+  .carousel {
+    width: 60rem;
+    height: 40rem;
+  }
+}
+
+/*****************************************/
+/*****************600px*******************/
+/*****************************************/
+
+@media (max-width: 37em) {
+  .hero {
+    padding: 4rem 3rem 10rem 3rem;
+  }
+  .about-me {
+    padding: 10rem 3rem;
+  }
+  .breed {
+    padding: 10rem 3rem;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .input-text {
+    max-width: 40rem;
+  }
+  .h6-title {
+    text-align: center;
+  }
+  .form-legend {
+    margin-bottom: 1.6rem;
+  }
+}
+
+/*****************************************/
+/*****************500px*******************/
+/*****************************************/
+
+@media (max-width: 31em) {
+  .hero-img {
+    max-width: 35rem;
+    max-height: 40rem;
+  }
+  .hero-title {
+    font-size: 5.2rem;
+  }
+  .title-h2 {
+    font-size: 2.4rem;
+  }
+  .title-h3 {
+    font-size: 3.6rem;
+  }
+  .h4-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .hero-text,
+  .about-me-text,
+  .breed-text,
+  .contact-us-text,
+  .footer-text {
+    font-size: 1.4rem;
+  }
+  .footer {
+    padding: 3rem;
+  }
+}
+
+/*****************************************/
+/*****************400px*******************/
+/*****************************************/
+@media (max-width: 24em) {
+  .navbar-lists {
+    gap: 4rem;
+  }
+  .hero {
+    padding: 4rem 1rem;
+  }
+  .about-me {
+    padding: 4rem 1rem;
+  }
+  .breed {
+    padding: 4rem 1rem;
+  }
+  .connect-with-us {
+    padding: 4rem 1rem;
+  }
+  .hero-img {
+    max-height: 30rem;
+  }
+  .hero-title {
+    font-size: 3.6rem;
+  }
+  .title-h2 {
+    font-size: 2.4rem;
+  }
+  .title-h3 {
+    font-size: 3.6rem;
+  }
+  .h4-title {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .form-legend {
+    font-size: 1.2rem;
+  }
+  .input-text {
+    max-width: 28rem;
+  }
+  .contact {
+    font-size: 1.2rem;
+  }
+}
